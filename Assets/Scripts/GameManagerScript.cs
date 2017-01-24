@@ -4,22 +4,34 @@ using UnityEngine.UI;
 
 public class GameManagerScript : MonoBehaviour {
 
-    Dropdown scene_selector;
+    public Dropdown scene_selector;
     GameObject code_pad;
 
-	// Use this for initialization
-	void Start () {
+    public int[] codes;
+
+    // Use this for initialization
+    void Start () {
         scene_selector = GameObject.Find("Scene Selector").GetComponent<Dropdown>();
         code_pad = GameObject.Find("Code Pad");
 
 
         code_pad.SetActive(false);
+
+        for (uint i = 0; i < PlayerPrefs.GetInt("Unlocked Scenes"); i++)
+        {
+            scene_selector.options.Add(new Dropdown.OptionData() { text = "Scene " + (3 + PlayerPrefs.GetInt("Unlocked Scenes")) });
+            Debug.Log(PlayerPrefs.GetInt("Unlocked Scenes"));
+        }
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	    
-	}
+
+        if (Input.GetKeyDown(KeyCode.R))
+            PlayerPrefs.SetInt("Unlocked Scenes", 0);
+
+
+    }
 
     public void StartSimulation()
     {

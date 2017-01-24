@@ -153,6 +153,7 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

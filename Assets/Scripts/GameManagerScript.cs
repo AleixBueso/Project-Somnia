@@ -6,6 +6,9 @@ public class GameManagerScript : MonoBehaviour {
 
     public Dropdown scene_selector;
     GameObject code_pad;
+    public GameObject enable_pad_button;
+
+    uint inv_counter = 0;
 
     public int[] codes;
 
@@ -41,6 +44,13 @@ public class GameManagerScript : MonoBehaviour {
     public void EnableCodePad()
     {
         code_pad.SetActive(!code_pad.active);
+    }
 
+    public void ClickInv()
+    {
+        inv_counter++;
+
+        if(inv_counter >=3)
+            enable_pad_button.SetActive(true);
     }
 }

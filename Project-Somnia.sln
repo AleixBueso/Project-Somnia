@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Somnia.CSharp", "Project-Somnia.CSharp.csproj", "{4C7DF27A-AA82-4CA9-BA5D-81F8A46789E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-Somnia.CSharp.Editor", "Project-Somnia.CSharp.Editor.csproj", "{2A045A24-6C65-6426-C047-40560467F133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C7DF27A-AA82-4CA9-BA5D-81F8A46789E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7DF27A-AA82-4CA9-BA5D-81F8A46789E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7DF27A-AA82-4CA9-BA5D-81F8A46789E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7DF27A-AA82-4CA9-BA5D-81F8A46789E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A045A24-6C65-6426-C047-40560467F133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A045A24-6C65-6426-C047-40560467F133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A045A24-6C65-6426-C047-40560467F133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A045A24-6C65-6426-C047-40560467F133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

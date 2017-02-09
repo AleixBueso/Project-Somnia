@@ -50,7 +50,7 @@ public class GameManagerScript : MonoBehaviour {
     {
         inv_counter++;
 
-        if(inv_counter >=3)
-            enable_pad_button.SetActive(true);
+        if (inv_counter >= 3)
+            code_pad.SetActive(true);
     }
 }

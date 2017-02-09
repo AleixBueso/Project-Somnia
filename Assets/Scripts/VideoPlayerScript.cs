@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VideoPlayerScript : MonoBehaviour {
 
-    public MovieTexture movie;
+    /*public MovieTexture movie;
 
 	// Use this for initialization
 	void Start () {
@@ -12,5 +12,5 @@ public class VideoPlayerScript : MonoBehaviour {
         GetComponent<Renderer>().material.mainTexture = movie as MovieTexture;
         movie.loop = true;
         movie.Play();
-	}
+	}*/
 }
